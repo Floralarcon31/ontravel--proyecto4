@@ -1,0 +1,1105 @@
+@import url('https://fonts.googleapis.com/css2?family=Meie+Script&display=swap');
+
+/*estilo del sitio*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	font-family: 'Rubik', sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    text-align: left;
+    line-height: 20px;
+    text-decoration: none;
+	background-color: whitesmoke;
+	
+}
+header	{
+	list-style: none;
+	padding: 0;
+	background: #4580ff;
+	width:100%;	
+}
+/*todos los titulos h1 de la pag*/
+h1{
+	font-size: 30px;
+	margin: 50px 0px 40px 20px;
+}
+/*inicio menu*/
+/*
+.encabezado{
+    background: white;
+}
+
+.imgLogo{
+	height: 35px;
+}
+
+.encabezado nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    height: 75px;
+	text-align: center;
+    
+}
+
+.encabezado nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+	text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: dodgerblue;
+    padding: 25px 25px;
+    display: block;
+	margin-top: 15px;
+	
+    
+}
+
+ nav a:hover{
+    background:dodgerblue;
+	color:white;
+	text-decoration: none;
+}
+*/
+
+/*fin menu*/
+/*------------------------------MENU BOOTSRAP*/
+.navbar{
+    background:white;
+    text-decoration: none;
+    font-size: 19px;
+    
+}
+
+/* ------ CONSULTAR 
+.dropdown-menu{
+    background: rgb(190, 222, 255);
+}
+.dropdown-item{
+    color: dodgerblue;
+    
+}
+.dropdown-item:hover{
+    background-color: rgb(10, 32, 54);
+    color: white;
+}
+-----*/
+/*------------------------------MENU BOOTSRAP*/
+/*banner INDEX*/
+ .carousel-inner{
+	opacity: 0.6;
+ }
+.banner h1{
+    color: dodgerblue;
+    position: absolute;
+    top: 25%;
+    left:43%;
+    transform: translate(-40%, -30%);
+    font-family: 'Meie Script', cursive;
+    font-size: 6.5rem;
+}
+.banner p{
+    color:rgb(28,62,95);
+    font-size: 1.3rem;
+    position: absolute;
+    top: 49%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+ 
+.banner a{
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: 20px 30px;
+    background: dodgerblue;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 65%;
+    left:50%;
+    transform: translate(-50%, -50%);
+ 
+}
+ 
+.banner a:hover{
+    background: rgb(28,62,95);
+}
+
+/*------------------------------fin banner index-------*/
+/*---------------------------- INDEX main*/
+.titulo__h2{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+	margin-top: 60px;
+}  
+
+.container{
+    display: flex;
+	padding: 30px;
+	margin-left: 80px;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+ }
+.container__item{
+    flex: 30%;
+	padding: 30px;
+	text-align: center;
+}
+.imagen1{
+	width: 290px;
+	height: 290px;
+	border-radius: 20px;  
+	object-fit: cover;
+	transition: 1s;
+}
+.imagen1:hover{
+	transform: scale(1.01);
+	-webkit-box-shadow: 42px 47px 180px 24px dodgerblue;
+	-moz-box-shadow: 42px 47px 180px 24px dodgerblue;
+	box-shadow: 42px 47px 180px 24px dodgerblue;
+}
+
+
+/*----------------------------------fin INDEX main*/
+
+/*aside*/
+.aside{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 30px;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 30px;
+	margin: 30px;
+	margin-top: 50px;
+}
+.aside__item1{
+	grid-column: 1/3;
+}
+.imgaside1{
+	width: 500px;
+	height: 290px;
+	border-radius: 20px;
+}
+.imgaside2{
+	width: 290px;
+	height: 290px;
+	border-radius: 20px;  
+	object-fit: cover;
+}
+
+/*fin aside*/
+
+/*iconoss sociales*/
+
+.social-bar{
+	position: fixed;
+	right: 0;
+	top: 30%;
+	font-size:1.5rem ;
+	display:flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+.icon{
+	color: white;
+	text-decoration: none;
+	padding: .7rem ;
+	display: flex;
+	transition: all .5s;
+}
+.icon-facebook-squared{
+	background: #3b5998 ;
+	border-radius: 1rem 0 0 0;
+}
+
+.icon-twitter{
+	background: #339DC5;
+}
+.icon-instagram{
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.icon-youtube-play{
+	background: #E83028;
+	border-radius: 0 0 0 1rem;
+}
+.icon:hover{
+	padding-right: 3rem;
+	border-radius: 1rem, 00 1rem;
+	box-shadow: 0 0 .5rem rgba (0,0,0,0.42);
+	color: white;
+}
+
+.icon-menu-1{
+	color: dodgerblue;
+}
+
+/*fin redes sociales*/
+/*pruebaconsultarduda*/
+.imgUsuario{
+	width: 30px;
+	height:30px ;
+}
+/*prueba*/
+
+/*-----------------------------DESTINOS*/
+/*----contenedor destinos----------*/
+
+.contenedor2{
+	display: grid;
+	grid-template-rows: 0px 850px 400px;
+}
+
+/*BANNER-----DESTINOS*/
+
+
+.banner2 h1{
+	color: dodgerblue;
+	position: absolute;
+	top: 40%;
+	left:47%;
+	transform: translate(-50%, -50%);
+	font-family: 'Meie Script', cursive;
+	font-size: 6.5rem;
+}
+
+/*FIN --------BANNER------------DESTINOS*/
+.titlePaquetes{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-weight: 100;
+}
+.titlePaquetes:hover{
+	color: dodgerblue;
+}
+
+.containerPaquetes{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 80px ;
+	padding: 10px;
+	
+}
+
+
+.containerPaquetes .cardPaquetes{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 30px;
+    text-align: center;
+    background: #f5f8fd;
+	
+}
+
+
+.containerPaquetes .cardPaquetes .item-paq{
+    width: 330px;
+    height: 220px;
+}
+.item-paq:hover{
+	transform: scale(1.1);
+}
+
+.containerPaquetes .cardPaquetes h4{
+	margin-top: 12px;
+    font-weight: 600;
+	color: dodgerblue;
+	font-size: 15px;
+	font-family: 'Rubik', sans-serif;
+}
+
+.containerPaquetes .cardPaquetes p{
+	margin-top: 10px;
+	margin-bottom: 20px;
+    padding: 0 1rem;
+    font-size: 13px;
+    font-weight: 300;
+}
+.cardPaquetes .infoPaq p{
+	font-size: 12px;
+}
+
+.cardPaquetes .infoPrecio h3{
+	display: flex;
+	margin-left: 205px;
+	color: rgb(65, 64, 64);
+	font-size: 17px;
+	
+}
+
+.botonPaqs{
+	border: none;
+	height: 26px;
+	width: 110px;
+	padding: 0 30px;
+	color: cornsilk;
+	display: inline-block;
+	border-radius: 10px;		
+	align-items: center;
+	background: dodgerblue;
+	transition: .3s ease all;
+	text-decoration: none;
+	margin-top: 12px;
+
+}	
+ .botonText{
+	font-size: 13px;
+	
+}
+.botonPaqs:hover{
+	transform: scale(1.01);
+	background:#263646;
+	color: white;
+}
+
+
+
+/*----FIN DE DESTINO-----*/
+
+/*NSOTROSx*/
+/*bloque, elementos y modificadores - NUESTROS PAX - PASAJEROS*/
+
+.titlePaquetes{
+	font-size: 25px;
+	font-family: 'Rubik', sans-serif;
+	text-decoration: none;
+	margin-top: 35px;
+	margin-bottom: 30px;
+	color: black;
+}
+.bannerPax{
+	width: 1140px;
+	height: 350px;
+	margin-top: 95px;
+	padding: 20px;
+	background-image: url(../imagenes/amigos2.jpg);
+	background-size: cover;
+	background-size: 100% 100%;
+	opacity: 4;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	
+}
+	
+.contenedor{
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+
+}
+.contenedor__cards{
+	margin: 90px 0;
+	height: auto;
+}
+.card{
+	background-image:linear-gradient(to right, dodgerblue, rgb(150, 211, 251) );
+	/*background: #ffffff;*/
+	background-repeat: no-repeat;
+	background-size:  1000px 350px;
+	border-radius: 15px;
+	padding: 20px;	
+	display: flex;	
+	align-items: center;
+	position: relative;
+	margin-bottom: 50px;
+	opacity: 0.8;
+}
+.card__thumbnail{
+	width: 500px;
+	height: 200px;
+	margin-right: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	display: inline-block;
+}
+.card__img{
+	width: 40vh;
+	animation-duration: 10s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite
+}
+
+@keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+.card__titulo{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	margin-bottom: 20PX;
+}
+.card__enlace{
+	color: black;
+}
+.card__extracto{
+	line-height: 28px;
+	color: black;
+	margin-bottom: 20px;
+}
+.boton{
+	background-color: dodgerblue;
+	color: white;
+	display: inline-block;
+	font-size: 18px;
+	margin: 10px;
+	padding: 10px 0px;
+	text-align: center;
+	width: 80px;
+	text-decoration: none;
+	box-shadow: 0px 3px 0px #79dbff;
+	border-radius: 10px;
+	
+}
+.boton__texto{
+	font-weight: 600;
+	
+	
+}
+.boton:hover{
+	background:rgb(0, 98, 163) ;
+	text-decoration: none;
+	transform: scale(1.2);
+}
+.boton--absolute{
+	position: absolute;
+	right: 20px;
+	bottom: -20px;
+}
+.boton--lila{
+	background: rgb(0, 98, 163) ;
+}
+.boton--lila:hover{
+	background:dodgerblue;
+}
+.frase{
+	text-align: center;
+	margin: 70px 0;
+}
+.frase__texto {
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 600;
+	font-style:  'Rubik', sans-serif;
+}
+
+/* -----TERMINA CARD-----------*/
+/*quienes somos/nosotros*/
+
+/*BANNER-----NOSOTROS*/
+
+
+
+.banner3 h1{
+	color: dodgerblue;
+	position: absolute;
+	top: 40%;
+	left:47%;
+	transform: translate(-50%, -50%);
+	font-family: 'Meie Script', cursive;
+	font-size: 6.5rem;
+}
+
+
+
+
+/*---- fin banner sobre nosotros-----*/
+
+/*---- fin banner sobre nosotros-----*/
+.titleNos{
+	font-size: 25px;
+	font-family: 'Rubik', sans-serif;
+	text-decoration: none;
+	margin-top: 35px;
+	margin-bottom: 30px;
+	color: black;
+	text-align: center;
+}
+
+.titleNos:hover{
+	color: dodgerblue;
+}
+.boxNosotros{
+	max-width: 900px;
+	width: 100%;
+	margin: 0 auto ;
+	
+}
+.box__nosotros{
+	margin: 100px 0;
+	height: auto;
+}
+
+.nosotros{
+	background: #ffffff;
+	border-radius: 40px;
+	padding: 10px 30px 30px 30px;	
+}
+
+.box__thumbnail{
+	width: 290px;
+	height: 60px;
+	margin-right: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	display: inline-block;
+}
+.box__titulo{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	font-weight: normal;
+	color: dodgerblue;
+	margin-bottom: 40PX;
+	text-align: justify;
+	margin-top: 0px;
+	padding:0px;
+	text-align: center;
+}
+
+.box__subtitulo{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	margin-bottom: 40PX;
+	text-align: left;
+	margin-top: 30px;
+	padding:0px;
+	color: black;
+}
+.box__extracto{
+	font-size: 18px;
+	line-height: 30px;
+	color: black;
+	margin-bottom: 30px;
+}
+.onTravel{
+	
+	color: black;
+	text-align: right;
+	
+}
+.onTravel:hover{
+	color: dodgerblue;
+	text-decoration: none;
+}
+/*--------------------------------AYUDA-------*/
+
+.banner6 h1{
+	color: dodgerblue;
+	position: absolute;
+	top: 40%;
+	left:47.5%;
+	transform: translate(-50%, -50%);
+	font-family: 'Meie Script', cursive;
+	font-size: 6.5rem;
+}
+.buscarDestino{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    background: dodgerblue;
+    padding: 10px;
+    height: 75px;
+    border-radius: 40px;
+}
+
+.buscar_texto{
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    float: left;
+    line-height: 60px;
+    transition:.4s;
+    width: 10px;
+	margin-left: 20px;
+}
+
+.botonDestinos{
+	width: 40px;
+	height: 40px;
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+}
+.botonDestinos:hover{
+	background: rgb(112, 108, 108);
+}
+
+/*------------responsiveAYUDA----*/
+@media screen and (min-width:350px) {
+    .buscarDestino:hover > .buscar_texto{
+        width: 190px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .buscarDestino:hover > .buscar_texto {
+        width: 300px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .buscarDestino:hover > .buscar_texto {
+        width: 500px;
+    }
+}
+/*contacto*/
+
+
+/*BANNER-----contacto*/
+
+
+
+.banner4 h1{
+	color: dodgerblue;
+	position: absolute;
+	top: 40%;
+	left:45%;
+	transform: translate(-50%, -50%);
+	font-family: 'Meie Script', cursive;
+	font-size: 6.5rem;
+}
+
+.banner4 a{
+	font-size: 1.3rem;
+	display: inline-block;
+	padding: 15px 35px;
+	background: none;
+	border-radius: 10px;
+	border: solid 1px dodgerblue;
+	color: dodgerblue;
+	text-decoration: none;
+	position: absolute;
+	top: 65%;
+	left:48%;
+	transform: translate(-50%, -50%);
+
+}
+.banner4 a:hover{
+	background:#00bb2d ;
+	border:solid 1px #00bb2d;
+	color: white;
+
+}
+
+.icon-whatsapp{
+	color: white;
+	display: inline-block;
+}
+/*----------------------------------MAPA*/
+
+.map{
+	width: 100vh;
+	}
+/*------------FORMULARIO CONTACTO --------*/
+.textTamano{
+	resize: none;
+	border-radius: 5px;	
+}
+.content-contacto{
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	background: none;
+}
+.contact-wrapper{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	box-shadow: 0 0 20px rgba(32, 145, 221, 0.8);
+	margin-top: 50px;
+}
+.contact-wrapper > * {
+	padding: 1em;
+	
+}
+.contact-form{
+	background: white;
+}
+
+.contact-form form{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.contact-form form .block{
+	grid-column: 1/3;
+}
+.contact-form form p{
+	margin: 0;
+	padding: 1em;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+	width: 100%;
+	padding: 0.7em;
+	border:none;
+	background: none;
+	outline: 0;
+	color: whitesmoke;
+	border-bottom: 1px solid dodgerblue;
+	
+}
+.contact-form form button{
+	display: block;
+	background: dodgerblue;
+	border: 0;
+	text-transform: uppercase;
+	padding: 1em;
+}
+.contact-form form button :hover,
+.contact-form form button:hover{
+	background:#285AEB;
+	color: white;
+	outline: 0;
+}
+.contact-info{
+	background-image: radial-gradient(circle, dodgerblue, rgb(15, 110, 173), rgb(0, 55, 128));
+	
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p{
+	display: block;
+	text-align: center;
+	margin: 0 0 1rem 0;
+	font-size: 15px;
+	color: #fff;
+	
+	
+}
+
+.contact-info ul{
+	list-style-type: none;
+	padding: 0;
+}
+.contact-info ul li{
+	padding: 0.4em;
+}
+
+/*iconos --contacto*/
+.icon-search{
+	color: white;
+	display: inline-block;
+}
+
+/*fin contacto*/
+/*ingreser*/
+
+
+/*banner INGRESAR*/
+
+
+.banner5 h1{
+	color: dodgerblue;
+	position: absolute;
+	top: 30%;
+	left:47%;
+	transform: translate(-50%, -50%);
+	font-family: 'Meie Script', cursive;
+	font-size: 6.5rem;
+}
+
+.banner5 p{
+	color: dodgerblue;
+	font-size: 1.5rem;
+	position: absolute;
+	top: 52%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.banner5 a{
+	font-size: 1.3rem;
+	display: inline-block;
+	padding: 20px 30px;
+	background: dodgerblue;
+	border-radius: 10px;
+	color: white;
+	text-decoration: none;
+	position: absolute;
+	top: 65%;
+	left:50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.banner5 a:hover{
+	background: rgb(28,62,95);
+}
+/*--------empieza los formularios-------INGRESAR*/
+.titleLog{
+	margin-top: 60px;
+	text-align: center;
+}
+
+.titleLog:hover{
+	color: dodgerblue;
+}
+
+.formulario {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	flex-direction: row;
+	margin-top: 40px;
+}
+.form-register{
+	width: 400px;
+	background-image:linear-gradient(to bottom, #263646, #335370) ;
+	padding: 30px;
+	margin:auto;
+	margin-top:100px;
+	border-radius: 4px;
+	font-family: arial;
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+	grid-column: 1/2;
+}
+
+.form-register h2{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.controls {
+	width: 100%;
+	background: #24303c;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid dodgerblue;
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+	color: white;
+	}
+.form-register p{
+	height: 40px;
+	text-align: center;
+	font-size: 15px;
+	line-height: 40px;
+}	
+.form-register a{
+	color: white;
+	text-decoration: none;
+}
+.form-register a:hover{
+	color: white;
+	text-decoration: underline;
+}
+.form-register .botons{
+	width: 100%;
+	background:  dodgerblue;
+	border: none;
+	padding: 12px;
+	color:white;
+	margin: 16px 0;
+	font-size: 16px;
+	border-radius: 5.5px;
+}	
+.botons:hover{
+	transform: scale(1.1);
+	background:#263646;
+	
+}
+
+/*footer */
+
+footer{
+	padding: 50px 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background: rgb(10, 32, 54);
+	position: relative;
+	z-index: 0;
+	text-decoration: none;
+	color: white;
+}
+
+.footer_logo img{
+	margin: 20px;
+}
+
+
+
+.footer p{
+	font-size: 15px;
+	display: flex;
+	text-decoration: none;
+	text-align: justify;
+	padding: 21px;
+	
+}
+
+.social_links .iconFooter{
+	text-decoration: none;
+	background: none;
+	margin: 10px 50px 15px 15px;
+	color: white;
+	font-size: 21px;
+
+}
+
+
+.footer ul li{
+	font-size: 20px;
+	margin-top: 30px;
+}
+.footer ul li a{
+	text-decoration: none;
+	margin-left: 17px;
+	font-size: 16px;
+	
+}
+.links :hover{
+	color: dodgerblue; 
+}
+
+.footer_title{
+	font-size: 20px;
+	margin: 30px 28px;
+	display: flex;
+}
+.footer_title:hover{
+	color: dodgerblue;
+
+}
+.inputNews{
+	border-radius: 4px;
+	color:white;
+	background: #24303c;
+	font-size: 15px;
+	width: 85%;
+	padding: 5px ;
+	margin: 8px 20px 20px 0px;
+	border: 1px solid dodgerblue;
+}
+.inputNews:hover{
+	border: rgb(28,62,95);
+}
+
+.check--terms {
+	font-size: 14px;
+	
+}
+	
+#checkTerms{
+	margin-bottom: 25px;
+	margin: 2px 15px 35px;
+	
+}	
+
+.button{
+	border-radius: 15px;
+	background: none;
+	color: white;
+	font-size: 14px;
+	border: 1px solid dodgerblue;
+	display: flex;
+	padding: 10px 94px;
+	
+}
+.button:hover{
+	cursor: pointer;
+	background-color: dodgerblue;
+}
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+	
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #7a7a7a;
+	display: flex;
+	justify-content: center;
+}
+.box__copyright a{
+	text-decoration: none;
+	color: white;
+}
+
+.box__copyright a:hover{
+	color: dodgerblue;
+
+}
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
+	/*--------------------------------------------RESPONSIVE PAGINA*/
+
+@media screen and (max-width: 768px) and (min-width: 376px) {
+	body{
+		background: rgb(200, 228, 255);
+	}
+	
+}
+
+/*responsive ----- div banner INDEX*/
+
+@media screen and  (max-width: 880px) and (min-width: 415px) {
+	.banner h1{
+		position: absolute;
+		font-size: 4.5rem;
+	}
+
+	.banner p{
+		display: none;
+	}
+
+	.banner a{
+		font-size: 1.0;
+		display: inline-block;
+		position:absolute;
+		padding: 15px 25px;
+		top: 65%;
+    	left:50%;
+   		transform: translate(-50%, -50%);
+		color: dodgerblue;
+		background-color: white;
+	}
+}

@@ -1,0 +1,66 @@
+
+/*estilo del sitio*/
+
+body{
+	font-family: 'Rubik', sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    text-align: left;
+    line-height: 20px;
+    text-decoration: none;
+	background-color: whitesmoke;
+	
+}
+header	{
+	list-style: none;
+	padding: 0;
+	width:100%;	
+}
+
+/*------------------------------MENU BOOTSRAP*/
+.navbar{
+    background:white;
+    text-decoration: none;
+    font-size: 19px;
+	
+
+	.nav-link{
+		color: $colorPrincipal;
+		font-family: 'Rubik', sans-serif;
+
+		&:hover{
+			color: $colorSecundario;
+		}
+	}
+	.icon-menu-1{
+		color: $colorPrincipal;
+	}
+}
+
+	
+/*titulos h2 de todas pag*/
+.titulo__h2{
+    font-size: 30px;
+    text-align: center;
+    color: $colorPrincipal;
+	margin-top: 60px;
+		&:hover{
+			color: $colorSecundario;
+		}
+}  
+@media screen and (max-width: 415px) and (min-width: 376px) {
+    .titulo__h2{
+		font-size: 20px;
+	}
+  }
+  @media screen and (max-width: 768px) and (min-width: 416px) {
+    .titulo__h2{
+		font-size: 25px;
+	}
+  }
+/*--------------------------------------------RESPONSIVE PAGINA*/
+@media screen and (max-width: 768px) and (min-width: 376px) {
+    body {
+      background: #c8e4ff;
+    }
+  }

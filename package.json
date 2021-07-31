@@ -1,0 +1,21 @@
+{
+  "name": "ontravel",
+  "version": "1.0.0",
+  "description": "Agencia de viajes on-line, nos dedicamos a cumplir los sueños de nuestros pasajeros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"  
+   
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Floralarcon31/ontravel.git"
+  },
+  "author": "FloenciaAlarcon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Floralarcon31/ontravel/issues"
+  },
+  "homepage": "https://github.com/Floralarcon31/ontravel#readme"
+}

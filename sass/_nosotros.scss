@@ -1,0 +1,160 @@
+/*NOSOTROS*/
+
+/*BANNER-----NOSOTROS*/
+.banner3{
+    h1 {
+        color: $colorPrincipal;
+        position: absolute;
+        top: 40%;
+        left: 47%;
+        transform: translate(-50%, -50%);
+        font-family: "Meie Script", cursive;
+        font-size: 6.5rem;
+    }
+   
+  }
+  /*---- fin banner sobre nosotros-----*/
+  /*---- BOX nosotros-----*/
+  .boxNosotros {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    .box__nosotros {
+        margin: 100px 0;
+        height: auto;
+        .nosotros {
+            background: #ffffff;
+            border-radius: 40px;
+            padding: 10px 30px 30px 30px;
+
+            .box__thumbnail {
+                width: 290px;
+                height: 60px;
+                margin-right: 20px;
+                border-radius: 10px;
+                overflow: hidden;
+                display: inline-block;
+
+              }
+            
+              .box__titulo {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 35px;
+                font-weight: normal;
+                color: $colorPrincipal;
+                margin-bottom: 40PX;
+                text-align: justify;
+                margin-top: 0px;
+                padding: 0px;
+                text-align: center;
+            }
+            .box__subtitulo {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 25px;
+                font-weight: normal;
+                margin-bottom: 40PX;
+                text-align: left;
+                margin-top: 30px;
+                padding: 0px;
+                color: black;    
+                }
+            
+            .box__extracto {
+                font-size: 18px;
+                line-height: 30px;
+                color: black;
+                margin-bottom: 30px;
+                
+                }
+            .onTravel {
+                color: black;
+                text-align: right;
+                    &:hover {
+                        color: $colorPrincipal;
+                        text-decoration: none;
+                      }
+                  }        
+          }
+      }
+
+  }
+
+  /*------------------RESPONSIVE NOSOTROS*/
+  @media screen and  (max-width: 768px) and (min-width: 416px) {
+	.banner3 {
+        h1{
+		font-size: 4rem;
+        }
+		
+	}
+}
+
+@media screen and  (max-width: 415px) {
+	.banner3{
+        h1{
+            font-size: 45px;
+        }
+    }
+}
+  @media screen and  (max-width: 992px) and (min-width: 769px) {
+	
+        .boxNosotros{
+            max-width: 650px;
+        }
+
+    }
+
+
+@media screen and  (max-width: 768px) and (min-width: 576px) {
+
+    .boxNosotros{
+        max-width: 480px;
+
+    }
+  
+  }
+  
+  @media screen and  (max-width: 575px) and (min-width: 370px) {
+
+    .boxNosotros{
+        max-width: 340px;
+        .box__nosotros{
+            .nosotros{
+                .box__titulo {
+                   
+                    font-size: 25px;
+                   
+                }
+                .box__subtitulo {
+                    
+                    font-size: 17px;
+                       
+                    }
+                
+                .box__extracto {
+                    font-size: 15px;
+                    line-height: 20px;
+                    margin-bottom: 20px;
+                    
+                    }
+             
+            }
+
+        }
+       
+    }
+
+
+  
+  } 
+ 
+  
+  
+  
+ 
+  
+ 
+  
+  
+  
+ 

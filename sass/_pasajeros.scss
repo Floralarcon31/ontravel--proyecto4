@@ -1,0 +1,165 @@
+//titulo pasajeros
+
+//condicional - suma y resta
+$headerpax:$colorPrincipal;
+
+.headerPax{
+  height: 200px ;
+  @if $headerpax==red{
+    background-color:red;
+
+  }
+  @else if $headerpax==$colorPrincipal{
+    background-color:$colorPrincipal;
+    
+  }
+  @else {
+    background-color: black;
+  }
+
+  h1{
+    color:white;
+    text-align: center;
+   
+    /*Suma*/
+    font-size: 30px + 2;
+    
+    &:hover{
+      color:$colorSecundario;
+    }
+   
+  }
+}
+  $contenedor:80%;
+
+  .contenedor {
+    max-width: 900px;
+    width: 90% - 10;
+    margin: auto;
+   
+    .contenedor__cards {
+      margin: 90px 0;
+      height: auto;
+      
+      .card {
+        background-image: linear-gradient(to right, $colorPrincipal, #96d3fb);
+        background-repeat: no-repeat;
+        background-size: 1000px 450px;
+        border-radius: 15px;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-bottom: 50px;
+        opacity: 0.8;
+        border-top:6px solid $colorPrincipal;
+       
+        .card__thumbnail {
+          width: 850px;
+          height: 190px;
+          margin-right: 20px;
+          border-radius: 10px;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 20px;
+          .card__img {        
+            width: 450px;
+            height: 210px;
+            animation-duration: 40s;
+            animation-name: aparecer;
+            animation-iteration-count: infinite;
+            border-radius: 30px;
+              
+            @keyframes aparecer {
+              0% {
+                opacity: 0;
+              }
+              20% {
+                opacity: 1;
+              }
+            }
+           
+          }
+        }        
+        .card__titulo {
+          font-family: cursive;
+          font-size: 30px;
+          font-weight: normal;
+          text-align: center;
+          color: white;
+          margin-top: 20px;
+                            
+            &:hover{
+              color: $colorSecundario;
+            }
+          
+            .card__extracto {
+              line-height: 28px;
+              color: black;
+              
+            }
+                  
+        }
+        .boton {
+          background-color: $colorSecundario;
+          color: white;
+          display: inline-block;
+          font-size: 16px;
+          margin: 10px;
+          padding: 9px 0px;
+          text-align: center;
+          width: 85px;
+          text-decoration: none;
+          border-radius: 10px;
+            .boton__texto {
+              font-weight: 600;
+            }
+            &:hover {
+              background: $colorTerciario;
+              text-decoration: none;
+              transform: scale(1.1);
+            }
+                  
+        }
+        .boton--absolute {
+          position: absolute;
+          right: 20px;
+          bottom: -20px;
+        }             
+      }      
+    }
+    
+  }
+  
+  .frase {
+    text-align: center;
+    margin: 70px 0;
+    .frase__texto {
+      margin-bottom: 20px;
+      font-size: 30px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 600;
+      font-style: "Rubik", sans-serif;
+        &:hover{
+          color: $colorPrincipal;
+        }
+    }
+    .boton--lila {
+      color: black;
+      text-decoration: none;
+      &:hover {
+        color: $colorPrincipal;
+      }
+    }
+    
+  }
+ 
+  
+  
+  
+ 
+ 
+  
+  
+  
+  

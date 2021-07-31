@@ -1,0 +1,212 @@
+
+/*banner INGRESAR*/
+.banner5 {
+    h1{
+    color: $colorPrincipal;
+	position: absolute;
+	top: 30%;
+	left:47%;
+	transform: translate(-50%, -50%);
+	font-family: 'Meie Script', cursive;
+	font-size: 6.5rem;
+    }
+    p{
+        color: $colorPrincipal;
+        font-size: 1.5rem;
+        position: absolute;
+        top: 52%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    a{
+        font-size: 1.3rem;
+        display: inline-block;
+        padding: 20px 30px;
+        background: $colorPrincipal;
+        border-radius: 10px;
+        color: white;
+        text-decoration: none;
+        position: absolute;
+        top: 65%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        &:hover{
+            background:$colorSecundario;
+        }
+    
+    }
+}
+
+/* FIN banner INGRESAR*/
+/*--------empieza los formularios-------INGRESAR*/
+
+.formulario {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	flex-direction: row;
+	margin-top: 20px;
+	margin-bottom: 50px;
+    .form-register{
+        width: 400px;
+        background-image:linear-gradient(to bottom, #263646, #335370) ;
+        padding: 30px;
+        margin:auto;
+        margin-top:100px;
+        border-radius: 4px;
+        font-family: arial;
+        color: white;
+        box-shadow: 7px 13px 37px #000;
+        grid-column: 1/2;
+        h2{
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+        .controls {
+            width: 100%;
+            background: #24303c;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            border: 1px solid $colorPrincipal;
+            font-family: 'Rubik', sans-serif;
+            font-size: 18px;
+            color: white;
+            }
+        p{
+            height: 40px;
+            text-align: center;
+            font-size: 15px;
+            line-height: 40px;
+            }	
+        a{
+            color: white;
+            text-decoration: none;
+                &:hover{
+                    color: white;
+                    text-decoration: underline;
+                }
+            }
+        .botons{
+            width: 100%;
+            background:  $colorPrincipal;
+            border: none;
+            padding: 12px;
+            color:white;
+            margin: 16px 0;
+            font-size: 16px;
+            border-radius: 5.5px;
+                &:hover{
+                    transform: scale(1.1);
+                    background:#263646;
+                    
+                }
+            }	
+
+    }
+}
+/*---------responsive login ------------*/
+
+@media screen and  (max-width: 768px) and (min-width: 416px) {
+	.banner5 {
+        h1{
+		font-size: 4rem;
+        }
+        p{
+            font-size: 1.1rem;
+           
+        }
+        
+        a{
+            font-size: .9rem;
+            padding: 15px 25px;
+        
+        }
+		
+	}
+}
+
+@media screen and  (max-width: 415px) {
+	.banner5{
+        h1{
+            font-size: 45px;
+        }
+        p{
+           display: none;
+
+        }
+        
+        a{
+            font-size: 13px;
+            padding: 8px 8px;
+            margin-top: 10px;
+        
+        }
+    }
+}
+
+@media screen and  (max-width: 845px) and (min-width: 426px) {
+    .formulario{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and  (max-width: 425px) and (min-width: 370px) {
+    .formulario {
+        display: flex;
+        flex-wrap: wrap;
+
+        .form-register{
+            width: 300px;
+            
+            h2{
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+            .controls {
+                width: 100%;
+                background: #24303c;
+                padding: 10px;
+                border-radius: 4px;
+                margin-bottom: 16px;
+                border: 1px solid $colorPrincipal;
+                font-family: 'Rubik', sans-serif;
+                font-size: 16px;
+                color: white;
+                }
+            p{
+                height: 30px;
+                text-align: center;
+                font-size: 14px;
+                line-height: 30px;
+                }	
+            a{
+                color: white;
+                text-decoration: none;
+                    &:hover{
+                        color: white;
+                        text-decoration: underline;
+                    }
+                }
+            .botons{
+                width: 100%;
+                background:  $colorPrincipal;
+                border: none;
+                padding: 12px;
+                color:white;
+                margin: 16px 0;
+                font-size: 16px;
+                border-radius: 5.5px;
+                    &:hover{
+                        transform: scale(1.1);
+                        background:#263646;
+                        
+                    }
+                }	
+    
+        }
+    }
+}
